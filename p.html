@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+    <title>Links website</title>
+    <style>
+        body {
+          background-image: url("https://i.imgur.com/c975JPx.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        .container {
+          width: 100%;
+          height: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        .image {
+          background-image: url("https://i.imgur.com/4ax3351.gif");
+          background-size: cover;
+          background-position: center;
+          width: 250px;
+          height: 250px;
+          margin: 0 auto;
+          border: 3px ridge #9d9de1;
+        }
+
+        a {
+          font-size: x-large;
+        }
+
+        .w3-border {
+          border: 3px solid #ccc !important;
+        }
+
+        .links-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        }
+
+        .links-container a {
+          width: 80%;
+          background: url("https://source.unsplash.com/8uZPynIu-rQ/640x960");
+          color: rgba(37, 37, 116, 1) !important;
+          opacity: 0.8;
+          transition: 0.2s;
+        }
+
+        .links-container a:hover {
+          opacity: 1;
+          color: rgba(37, 37, 116, 1) !important;
+        }
+
+        .profession {
+          margin-top: 15px !important;
+        }
+
+        .profession span {
+          font-size: 14px;
+          background: url("https://source.unsplash.com/8uZPynIu-rQ/640x960");
+          color: #19194d;
+        }
+
+        .icons {
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+        }
+
+        .icons a {
+          text-decoration: none;
+        }
+
+        .icons a svg {
+          fill: #9d9de1 !important;
+          transform: scale(1.5);
+        }
+
+        .border {
+          border: 3px ridge #9d9de1;
+        }
+
+        @media screen and (min-width: 768px) {
+          .link {
+            width: 100%;
+          }
+        }
+        @media screen and (min-width: 576px) {
+          .container {
+            max-width: 540px;
+          }
+
+          .profession span {
+            font-size: 24px;
+          }
+        }
+
+    </style>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+
+      <!-- Image and name container -->
+      <div class="w3-margin-top" style="text-align: center">
+        <div class="image w3-round"></div>
+        <p class="profession"><span class="w3-padding w3-margin w3-round border" style="font-weight: bolder;">Nguyễn Thị Đan</span></p><br>
+      </div>
+
+        <div class="icons w3-padding">
+          <a href="https://www.facebook.com/ngthidanne" target="_blank">
+            <i data-feather="facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/tdancuti_/" target="_blank">
+            <i data-feather="instagram"></i>
+          </a>
+        </div>
+
+      <!-- Links section 1 -->
+      <div class="links-container">
+        <a href="https://zingmp3.vn/bai-hat/Them-Bao-Nhieu-Lau-Dat-G/ZWA7W98E.html" class="w3-button w3-round link border" target="_blank">MY MUSIC</a>
+        <a href="https://nguyenthida.github.io/nguyenthidannn/" class="w3-button w3-round link border" target="_blank">Web trái tim theo chữ</a>
+        <a href="https://codepen.io/nguyenthida/pen/WNyjqZm" class="w3-button w3-round link border" target="_blank">Code trái tim thật</a>
+      </div>
+      <!-- End footer -->
+      </footer>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
